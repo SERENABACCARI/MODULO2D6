@@ -1,11 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sito e-commerce per smartphones</title>
+    <link rel="stylesheet" href="style.css">
+    
 </head>
-<body>
+
+<body id="color">
+    <!--ESERCIZI IN HTML
+    
+    // ESERCIZIO 1: Inserisci un tag h1 con il nome del tuo negozio
+    // ESERCIZIO 2: Aggiungi una tabella con i 5 prodotti più in vista del tuo negozio
+    // ESERCIZIO 3: Aggiungi per ogni prodotto un'immagine, un titolo, una descrizione e un prezzo
+    // ESERCIZIO 4: Per ogni elemento della tabella aggiungi un link di Amazon al prodotto esistente
+    // ESERCIZIO 5: Aggiungi un footer con il nome e l'indirizzo del tuo negozio
+    // ESERCIZIO 6: Aggiungi un campo testuale in cui l'utente può lasciare un commento su un prodotto (al momento non serve
+    inserire nessuna "vera" funzionalità di POST/salvataggio!)-->
+
+    <h1 id="title">Bull Nutrition</h1>
+    <!-- TABELLA CON PRODOTTI-->
+    <table>
+        <tr>
+            <th>PRODOTTO</th>
+            <th>DESCRIZIONE</th>
+            <th>PREZZO</th>
+            <th>LINK</th>
+        </tr>
+        <tr>
+            <td id="hidden"><img src="https://m.media-amazon.com/images/I/716H-b7LlWL._AC_SX679_.jpg" alt=""></td>
+            <td>Creatina</td>
+            </td>
+            <td class="colorprice">14,49€ (65,86€ / kg)</td>
+            <td><a
+                    href="https://www.amazon.it/Equilibra-Integratori-Alimentari-Integratore-Prestazioni/dp/B0BKTBPXLH/ref=sr_1_6?crid=3OZGBX5JCKPHR&keywords=integratori+creatina&qid=1688711461&sprefix=integratori+crea%2Caps%2C129&sr=8-6">Amazon</a>
+            </td>
+        </tr>
+        <tr>
+            <td id="hidden"><img src="https://m.media-amazon.com/images/I/71KjSe3txtL.__AC_SX300_SY300_QL70_ML2_.jpg" alt=""></td>
+            <td>Aminoacidi</td>
+            <td class="colorprice">23,90€ (23,90€ / unità)</td>
+            <td><a
+                    href="https://www.amazon.it/Yamamoto-Nutrition-integratore-aminoacidi-essenziali/dp/B074NSD8XW/ref=sr_1_6?crid=24HC5S6K09EBE&keywords=integratori+aminoacidi&qid=1688711888&rdc=1&sprefix=integratori+amino%2Caps%2C173&sr=8-6">Amazon</a>
+            </td>
+        </tr>
+        <tr>
+            <td id="hidden"><img src="https://m.media-amazon.com/images/I/61yMNQiTjkL.__AC_SX300_SY300_QL70_ML2_.jpg" alt=""></td>
+            <td>Omega3</td>
+            <td class="colorprice" >27,95€ (0,07€ / unità)</td>
+            <td><a
+                    href="https://www.amazon.it/GloryFeel%C2%AE-Capsule-Omega-3-Fornitura-Essenziali/dp/B00SB0N878/ref=sr_1_6?crid=1SXYZ1T76PT60&keywords=integratori+omega+3&qid=1688712026&sprefix=integratori+omeg%2Caps%2C126&sr=8-6">Amazon</a>
+            </td>
+        </tr>
+        <tr>
+            <td id="hidden" ><img src="https://m.media-amazon.com/images/I/51AMZRZkk6L._AC_SX679_.jpg" alt=""></td>
+            <td>Vitamina D</td>
+            <td class="colorprice">24,95€ (0,12€ / unità)</td>
+            <td><a
+                    href="https://www.amazon.it/Vitamina-Compresse-Articolazioni-Immunitario-Menachinone/dp/B08QR99TD4/ref=sr_1_3_sspa?crid=3RNFPCNECA64L&keywords=integratori+vitamina+d&qid=1688712060&sprefix=integratori+vit%2Caps%2C124&sr=8-3-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Amazon</a>
+            </td>
+        </tr>
+        <tr>
+            <td id="hidden"><img src="https://m.media-amazon.com/images/I/61WaKSQekpL.__AC_SX300_SY300_QL70_ML2_.jpg" alt=""></td>
+            <td>Multivitamico</td>
+            <td class="colorprice">24,95€ (0,06€ / unità)</td>
+            <td><a
+                    href="https://www.amazon.it/Multivitaminico-Multiminerale-Compresse-Vitamine-Integratore/dp/B075RCPZ3P/ref=sr_1_1_sspa?crid=2BTMAN9RI4MGA&keywords=integratori+multivitaminico&qid=1688712100&sprefix=integratori+mul%2Caps%2C123&sr=8-1-spons&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1">Amazon</a>
+            </td>
+        </tr>
+    </table>
+
+    <!-- FOOTER NOME E INDIRIZZO-->
+
+    <footer id="myaddress">Bull Nutrition Via Garibaldi 1,06010 Perugia</footer>
+
+    <!-- TESTUALE UTENTE-->
+
+    <input type="textarea" placeholder="lasciare un commento" >
+    <button>invia!</button>
+
+    <script src="index.js"></script>
     
 </body>
+
 </html>
